@@ -1,0 +1,15 @@
+.copy { 
+  width: 250px;
+  text-align: left;
+}
+.copy__text {
+  font-family: 'open_sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #ffffff;
+}
+.copy__link {
+  font-weight: bold;
+  color: #ffffff;
+}

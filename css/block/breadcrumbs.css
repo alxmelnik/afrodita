@@ -1,0 +1,35 @@
+.breadcrumbs {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 28px;
+}
+
+
+.breadcrumbs__list { 
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  color: rgba(34, 31, 31, 0.8);
+}
+
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(248, 149, 19, 0.8);
+}
+
+.breadcrumbs__item--active:after {
+  display: none;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: rgba(34, 31, 31, 0.8);
+  text-decoration: none;
+}
+

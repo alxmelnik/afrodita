@@ -1,0 +1,14 @@
+.page-content {
+  display: flex;
+  padding: 0 20px;
+}
+
+.page-content__main {
+  margin-bottom: 50px;
+}
+.page-content__comments {
+  margin-bottom: 50px;
+}
+.page-content__service {
+  margin-bottom: 8px;
+}

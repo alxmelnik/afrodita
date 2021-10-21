@@ -1,0 +1,23 @@
+.promo {
+  display:flex;
+  align-items: center;
+  min-height: 171px;
+  background-image: url('../../img/promo/background_znaki.png');
+  padding: 30px 26px;
+  margin-bottom: 9px;
+}
+
+
+
+.promo__message {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #ffffff;
+  text-align: center;
+}
+
+.promo__message--bold {
+  font-weight: bold;  
+  color: #f89513;
+}

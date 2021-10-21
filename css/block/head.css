@@ -1,0 +1,21 @@
+.head {
+  background:#131415;
+  
+}
+
+.head__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #131415;
+  min-height: 77px;
+  padding: 0 20px;
+  margin-bottom: 45px;
+  /* position: relative; */
+}
+
+.head__logo {
+  /* position: absolute; */
+  top: 31px;
+  left: 19px; 
+}

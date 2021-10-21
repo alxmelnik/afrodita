@@ -1,0 +1,13 @@
+.foot {
+  background:#131415;
+}
+
+.foot__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #131415;
+  min-height: 77px;
+  padding: 0 20px;
+}
+

@@ -1,0 +1,75 @@
+
+.nav__main {
+  margin-bottom: 24px;
+}
+.nav__comments {
+  margin-bottom: 82px;
+}
+.nav__service {
+  margin-bottom: 70px;
+}
+
+
+
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}  
+
+.nav__item:last-child {
+  margin-bottom: 0px;
+}
+.nav__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  margin-right: 18px;
+  background: center center / contain no-repeat;
+}
+
+.nav__link {
+  font-family: 'open_sans';
+  font-weight: bold;
+  font-size: 12px;
+  color: #221f1f;
+  text-decoration: none;
+}
+
+
+.nav__link:hover {
+  color: #f89513;
+  transition: 0.3s ;
+}
+
+
+
+.nav__link--icon--pulse:before {
+  background: url('../../img/icons/css_sprites.png') -10px -225px;
+}
+.nav__link--icon--star:before {
+  background: url('../../img/icons/css_sprites.png') -10px -293px;
+}
+.nav__link--icon--dumbbell:before {
+  background: url('../../img/icons/css_sprites.png') -10px -157px;
+}
+
+
+.nav__link--icon--pulse:hover:before {
+  background: url('../../img/icons/css_sprites.png') -10px -259px;
+}
+.nav__link--icon--star:hover:before {
+  background: url('../../img/icons/css_sprites.png') -10px -331px;
+}
+.nav__link--icon--dumbbell:hover:before {
+  background: url('../../img/icons/css_sprites.png') -10px -191px;
+}
